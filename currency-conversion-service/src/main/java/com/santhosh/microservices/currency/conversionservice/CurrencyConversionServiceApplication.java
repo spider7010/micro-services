@@ -1,9 +1,11 @@
-package com.santhosh.microservices.currencyconversionservice;
+package com.santhosh.microservices.currency.conversionservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
+@EnableFeignClients("com.santhosh.microservices.currency.conversionservice")
 public class CurrencyConversionServiceApplication {
 
 	public static void main(String[] args) {

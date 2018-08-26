@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.santhosh.microservices.currencyconversionservice;
+package com.santhosh.microservices.currency.conversionservice;
 
 import java.math.BigDecimal;
 
